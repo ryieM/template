@@ -1,0 +1,63 @@
+.container {
+    width: 750px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: palevioletred;
+    height: 100px;
+    border: solid white 3px;
+    position: relative;
+}
+
+.menu {
+    width: 50px;
+    height: auto;
+    min-height: 205px;
+    background-color: grey;
+    float: left;
+    border: solid white 3px;
+    position: relative;
+    margin-top: -55px;
+}
+
+
+.banner {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 693px;
+    float: left;
+    border: solid white 3px;
+    position: relative;
+    left: 53px;
+}
+
+.news {
+    background-color: aqua;
+    float: left;
+    width: 340px;
+    min-height: 150px;
+    border: solid white 3px;
+    position: relative;
+    overflow: auto;
+    word-wrap: break-word;
+    height: auto;
+}
+
+.todolist {
+    background-color: rgb(228, 82, 233);
+    float: right;
+    width: 340px;
+    min-height: 150px;
+    border: solid white 3px;
+    overflow: auto;
+    word-wrap: break-word;
+    height: auto;
+}
+
+footer {
+    background-color: brown;
+    clear: both;
+    border: solid white 3px;
+}
